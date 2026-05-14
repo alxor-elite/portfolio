@@ -8,17 +8,15 @@ export default function Contact() {
     <section id="contact" className="contact">
       <div className="container">
         <h2 className="section-title scroll-reveal" ref={titleRef}>
-          Let's Create Something Cool
+          Let's Work Together
         </h2>
         <div className="contact-content scroll-reveal" ref={contentRef}>
           <p className="contact-text">
-            Got a project in mind? A wild idea? A brand that needs a glow-up?
-            <br />
-            I'm literally one message away. Let's make it happen.
+            Got a project in mind? I'd love to hear about it. Let's build
+            something amazing together.
           </p>
           <div className="contact-buttons">
-            {/* Replace the email below with your actual email address */}
-            <a href="mailto:your.email@example.com" className="btn btn-primary">
+            <a href="mailto:alxorelite@gmail.com" className="btn btn-primary">
               Say Hello &#128075;
             </a>
             <a
