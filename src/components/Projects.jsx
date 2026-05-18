@@ -3,6 +3,15 @@ import { useScrollReveal } from '../hooks/useScrollReveal';
 
 const projects = [
   {
+    title: 'SHOPY STREET',
+    description:
+      'A premium streetwear e-commerce store built from scratch. Features real-time inventory, admin dashboard, Supabase backend, Stripe payments, and an Allbirds-inspired UI with scroll animations and micro-interactions.',
+    tags: ['React', 'Supabase', 'PostgreSQL', 'Tailwind CSS', 'Stripe'],
+    image: './shopy-screenshot.png',
+    link: 'https://shopy-khaki-eta.vercel.app/',
+    isPrivate: false,
+  },
+  {
     title: 'GRND 3D Product Landing Page',
     description:
       'An immersive 3D animated product landing page for a shaker bottle brand. Features real-time 3D model rendering, scroll-triggered animations, and a sleek dark aesthetic. Built to convert visitors into buyers.',
